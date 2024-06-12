@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>NexaVerse University</title>
+    <link href="css/style.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="video-container">
+            <video class="video" controls poster="images/poster.jpg">
+                <source src="./video/invideo-ai-1080 Explore the Future at NexaVerse Universi 2024-05-21.mp4" type="video/mp4"/>
+            </video>
+        </div>
+        <div class="text-box">
+            <h1>Welcome to NexaVerse University</h1>
+            <p>Discover a place where innovation, excellence, and leadership converge to create a transformative educational experience. Join us at NexaVerse University, where your future begins.</p>
+            <a class="hero-btn" href="contact.html">Visit Us</a>
+        </div>
+    </section>
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>At NexaVerse University, we offer a diverse range of courses designed to equip you with the skills and knowledge needed to thrive in today's dynamic world. Explore our programs and find the perfect fit for your career aspirations.</p>
+    </section>
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Our campuses are spread across major cities worldwide, providing state-of-the-art facilities and a vibrant learning environment. Whether in New York, London, or Tokyo, you will find a home at NexaVerse University.</p>
+    </section>
+    <section class="testimonial">
+        <h1>What Our Students Say</h1>
+        <div class="testimonial-col">
+            <img src="images/user1.jpg" alt="Portrait of a smiling user"/>
+            <div>
+                <p>NexaVerse University has been a life-changing experience. The faculty, the resources, and the community here have all contributed to my personal and professional growth.</p>
+                <h3>Christine Berkley</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+        <div class="testimonial-col">
+            <img src="images/user2.jpg" alt="Photo of a happy student"/>
+            <div>
+                <p>Being a part of NexaVerse University has opened so many doors for me. The knowledge and skills I've gained here are invaluable.</p>
+                <h3>David Bekh</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+    </section>
+    <section class="cta">
+        <h1>Enroll in Our Online Courses from Anywhere in the World</h1>
+        <a class="hero-btn" href="contact.html">Contact Us</a>
+    </section>
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>NexaVerse University is dedicated to fostering a learning environment where students can thrive and achieve their full potential. Our commitment to excellence in education, research, and community engagement sets us apart as a leading institution in the global academic landscape.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+    </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

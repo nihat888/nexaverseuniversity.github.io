@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>NexaVerse University</title>
+    <link href="css/style.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="sub-header">
+    <nav>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="About.html">ABOUT</a></li>
+                <li><a href="Course.html">COURSE</a></li>
+                <li><a href="Blog.html">BLOG</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Our Courses</h1>
+</header>
+<section class="course">
+    <h1>Courses We Offer</h1>
+    <p>At NexaVerse University, we provide a diverse range of programs designed to help you achieve your academic and professional goals. Our courses are carefully curated to ensure comprehensive learning and skill development.</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Our Intermediate courses are designed to build a solid foundation in various fields of study. These programs are perfect for students who are looking to gain a thorough understanding of their chosen subjects before advancing to higher levels.</p>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>The Degree programs at NexaVerse University offer in-depth knowledge and practical experience in your chosen discipline. With a focus on both theoretical and practical learning, our degree courses prepare you for successful careers and further academic pursuits.</p>
+        </div>
+        <div class="course-col">
+            <h3>Post-Graduation</h3>
+            <p>Our Post-Graduation courses are aimed at providing advanced knowledge and specialized skills in various fields. These programs are ideal for those looking to deepen their expertise and engage in research or professional practice at an advanced level.</p>
+        </div>
+    </div>
+</section>
+<section class="course-list">
+    <h1>List of Courses</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Course Name</th>
+                <th>Description</th>
+                <th>Duration</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Data Science 101</td>
+                <td>Introduction to data science concepts and tools</td>
+                <td>12 weeks</td>
+            </tr>
+            <tr>
+                <td>Advanced Machine Learning</td>
+                <td>Deep dive into machine learning algorithms and applications</td>
+                <td>15 weeks</td>
+            </tr>
+            <tr>
+                <td>Web Development Bootcamp</td>
+                <td>Comprehensive guide to web development</td>
+                <td>10 weeks</td>
+            </tr>
+            <tr>
+                <td>Digital Marketing Strategies</td>
+                <td>Effective marketing strategies in the digital age</td>
+                <td>8 weeks</td>
+            </tr>
+            <tr>
+                <td>Project Management</td>
+                <td>Essential skills for successful project management</td>
+                <td>6 weeks</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>At NexaVerse University, we provide top-notch facilities to ensure an enriching and comfortable learning experience for our students.</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/library.png" alt="World Class Library"/>
+            <h3>World Class Library</h3>
+            <p>Our library offers a vast collection of books, journals, and digital resources to support your academic journey. With quiet study areas and knowledgeable staff, it's the perfect place to immerse yourself in learning.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/basketball.png" alt="Largest Play Ground"/>
+            <h3>Largest Play Ground</h3>
+            <p>Our expansive playground is designed for various sports and recreational activities. Whether you're into basketball, soccer, or just a morning jog, our facilities cater to all your fitness needs.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/cafeteria.png" alt="Tasty and Healthy Food"/>
+            <h3>Tasty and Healthy Food</h3>
+            <p>Our cafeteria provides a variety of nutritious and delicious meals. From healthy salads to hearty meals, we ensure that you have access to balanced diet options to fuel your body and mind.</p>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <h4>About Us</h4>
+    <p>NexaVerse University is dedicated to fostering a learning environment where students can thrive and achieve their full potential. Our commitment to excellence in education, research, and community engagement sets us apart as a leading institution in the global academic landscape.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+</footer>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
